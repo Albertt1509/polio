@@ -1,17 +1,12 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
-// Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
-
-// Summary And Greeting Section
 
 const illustration = {
   animated: true // Set to false to use static SVG
@@ -20,15 +15,10 @@ const illustration = {
 const greeting = {
   username: "ALPHA",
   title: "Hi, I'm Albert Prido ",
-  subTitle: emoji(
-"ALPHA my chosen code name, represents my journey as a budding coder aspiring to become a programmer with a ninja ways."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1K8aqCIBMUxTfviE4Bez1SwJePm7EpkFc/view?usp=sharing", // Set to empty to hide the button
+  subTitle: emoji("ALPHA my chosen code name, represents my journey as a budding coder aspiring to become a programmer with a ninja ways."),
+  resumeLink:"https://drive.google.com/file/d/1K8aqCIBMUxTfviE4Bez1SwJePm7EpkFc/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/Albertt1509",
@@ -37,23 +27,14 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/profile.php?id=100070822304567",
   wa:"https://wa.me/qr/T7TWBXQRR3LCN1 ",
   instagram:"https://www.instagram.com/albert.jsx/",
- 
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true 
 };
-
-// Skills Section
 
 const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [ 
-  
+  skills: [  
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "html-5",
@@ -83,7 +64,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Laravel",
       fontAwesomeClassname: "fab fa-laravel"
     },
-     {
+    {
       skillName: "Django",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -95,38 +76,30 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
     },
-  
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
-// Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-   {
+  {
     schoolName: "Soegijaprantana Catholic University",
     logo: require("./assets/images/scu.png"),
     subHeader: "Bachelor of Information Systems",
     duration: "2020 - Now",
-   },
+  },
     {
       schoolName: "Xaverius Pringsewu High School",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Natural Sciences Major",
       duration: "2018 - 2020",
-
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
 const techStack = {
- };
-
-// Work experience section
+};
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
@@ -205,7 +178,7 @@ const bigProjects = {
       projectName: "See More....",
       projectDesc: "All My Project",
       footerLink: [
-         {
+        {
           name: "All My Project Code",
           url: "https://github.com/Albertt1509/"
         }
@@ -215,14 +188,10 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and I have done!",
-
   achievementsCards: [
     {
       title: "CV Medisimed",
@@ -236,13 +205,10 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
 const blogSection = {
-  
+
 };
 
-// Talks Sections
 
 const talkSection = {
 };
@@ -255,8 +221,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Explore a project together or perhaps something else? My inbox eagerly awaits your ideas and collaboration.",
+  subtitle:"Explore a project together or perhaps something else? My inbox eagerly awaits your ideas and collaboration.",
   number: "+62895613308484",
   email_address: "nathanael33210@gmail.com"
 };
