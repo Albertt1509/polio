@@ -50,7 +50,7 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <img alt="man sitting on table" src={landingPerson} />
+              <img  alt="man sitting on table" src={landingPerson} />
             ) : (
               <img
                 alt="man sitting on table"

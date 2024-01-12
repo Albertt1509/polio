@@ -23,14 +23,11 @@ import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
-  const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
-    useState(true);
-
+  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches||false);
+  const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(true);
   useEffect(() => {
     if (splashScreen.enabled) {
-      const splashTimer = setTimeout(
-        () => setIsShowingSplashAnimation(false),
+      const splashTimer = setTimeout(() => setIsShowingSplashAnimation(false),
         splashScreen.duration
       );
       return () => {
