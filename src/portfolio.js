@@ -16,7 +16,7 @@ const greeting = {
   username: "ALPHA",
   title: "Hi, I'm Albert Prido ",
   subTitle: emoji("ALPHA my chosen code name, represents my journey as a budding coder aspiring to become a programmer with a ninja ways."),
-  resumeLink:"https://drive.google.com/file/d/1K8aqCIBMUxTfviE4Bez1SwJePm7EpkFc/view?usp=sharing", // Set to empty to hide the button
+  resumeLink:"https://drive.google.com/file/d/1_QDNUucQxWM6Lk-vRX68zEwU3yCQrmed/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
