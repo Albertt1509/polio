@@ -3,7 +3,8 @@ import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import codingPerson from "../../assets/images/HGj3KXe7.gif";
+import codingPerson from "../../assets/lottie/codingPerson";
+import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
@@ -17,7 +18,7 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             {illustration.animated ? (
-            <img alt="man" src={codingPerson}/>
+              <DisplayLottie animationData={codingPerson} />
             ) : (
               <img
                 alt="Man Working"

@@ -65,10 +65,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "Django",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "sql & non-sql -database",
       fontAwesomeClassname: "fas fa-database"
     },    
@@ -152,7 +148,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/kurukuru1.png"),
+      image: require("./assets/images/kurukuru.png"),
       projectName: "Kuru Kuru Store",
       projectDesc: "Simple E-commerce using Laravel",
       footerLink: [
@@ -174,7 +170,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+    
       projectName: "See More....",
       projectDesc: "All My Project",
       footerLink: [

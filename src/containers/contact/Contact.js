@@ -3,7 +3,8 @@ import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
-import Dragon from "../../assets/images/dinosaur.gif";
+import email from "../../assets/lottie/email";
+import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
@@ -46,12 +47,14 @@ export default function Contact() {
               >
                 {contactInfo.email_address}
               </a>
+              <br />
+              <br />
               <SocialMedia />
             </div>
           </div>
           <div className="contact-image-div">
             {illustration.animated ? (
-            <img alt="man" src={Dragon}/>
+              <DisplayLottie animationData={email} />
             ) : (
               <img
                 alt="Man working"
